@@ -22,7 +22,7 @@ repository               : "annawundram/annamwundram.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile_photo.jpg"
+  avatar           : "profile_photo.jpeg"
   name             : "Anna M. Wundram"
   pronouns         : # example: "she/her"  
   bio              : "First-year PhD candidate focusing on safe AI application in clinical practice"
