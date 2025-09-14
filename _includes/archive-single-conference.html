@@ -1,14 +1,14 @@
 <div class="publication">
     <h3>{{ post.title }}</h3>
-    <p><strong>{{ post.venue }}</strong> — {{ post.date | date: "%Y" }}</p>
+<p><strong>{{ post.venue }}</strong> — {{ post.date | date: "%Y" }}</p>
   
     {% if post.abstract %}
       <p><em>{{ post.abstract }}</em></p>
     {% endif %}
   
     {% if post.figure %}
-      <img src="{{ post.figure | relative_url }}" alt="Figure for {{ post.title }}" style="max-width: 400px;">
-    {% endif %}
+      <img src="{{ post.figure | relative_url }}" alt="Figure for {{ post.title }}" style="max-width: 100%; height: auto;">
+     {% endif %}
   
     <p>
       {% if post.paperurl %}
