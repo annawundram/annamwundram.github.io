@@ -37,7 +37,7 @@ author:
   googlescholar    : "https://scholar.google.com/citations?user=9U4Ic9IAAAAJ&hl=de"
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : # URL
+  orcid            : "https://orcid.org/0009-0000-5526-7624"
   semantic         : # URL
   pubmed           : # URL
   researchgate     : # URL
@@ -62,7 +62,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : Anna Maria Wundram
+  linkedin         : anna-maria-wundram
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
@@ -224,10 +224,10 @@ collections:
     output: true
     permalink: /:collection/:path/
   portfolio:
-    output: true
+    output: false
     permalink: /:collection/:path/
   talks:
-    output: true
+    output: false
     permalink: /:collection/:path/
 
 

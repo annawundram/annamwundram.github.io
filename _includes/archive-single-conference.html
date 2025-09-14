@@ -1,0 +1,25 @@
+<div class="publication">
+    <h3>{{ post.title }}</h3>
+    <p><strong>{{ post.venue }}</strong> — {{ post.date | date: "%Y" }}</p>
+  
+    {% if post.abstract %}
+      <p><em>{{ post.abstract }}</em></p>
+    {% endif %}
+  
+    {% if post.figure %}
+      <img src="{{ post.figure | relative_url }}" alt="Figure for {{ post.title }}" style="max-width: 400px;">
+    {% endif %}
+  
+    <p>
+      {% if post.paperurl %}
+        <a href="{{ post.paperurl }}" target="_blank">[PDF]</a>
+      {% endif %}
+      {% if post.bibtexurl %}
+        <a href="{{ post.bibtexurl }}" target="_blank">[BibTeX]</a>
+      {% endif %}
+      {% if post.video %}
+        <a href="{{ post.video }}" target="_blank">[Video]</a>
+      {% endif %}
+    </p>
+  </div>
+  <hr>  
