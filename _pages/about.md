@@ -19,4 +19,4 @@ Research Interests
 - Human-AI collaboration
 - Uncertainty Quantification
 - Segmentation
-- Opthalmology
+- Ophthalmology
